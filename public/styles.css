@@ -1,0 +1,323 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Raleway", sans-serif;
+}
+body {
+  background: #eee;
+  padding: 0 16px;
+}
+
+header {
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: 'Goldman', cursive;
+  color: #000;
+  /* font-family: "Raleway", sans-serif; */
+  font-weight: 200;
+}
+
+.home-content {
+  padding-top: 270px;
+  padding-left: 30px;
+  padding-bottom: 270px;
+}
+
+.btn-shadow {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.showing-data-no-prob {
+  text-align: center;
+  justify-content: center;
+  margin: 18% 28% 15% 28%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 15px;
+  background-color: #fff2d0;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.showing-data {
+  background-color: #fff2d0;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-right: 30%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.showing-data .showing-data-details img {
+  height: 500px;
+  width: 400px;
+}
+
+.showing-data-name {
+  background-color: #f5ba13;
+  border-radius: 15px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-bottom: 1%;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 5rem;
+  padding: 0;
+  margin: 0;
+}
+
+footer p {
+  color: #ccc;
+  line-height: 50%;
+}
+
+footer .aboutAndTeamFooter {
+  line-height: 50%;
+  padding-top: 0;
+  margin-top: 0;
+  color: #ccc;
+  text-decoration: none;
+}
+
+footer .aboutAndTeamFooter:hover {
+  color: #b9ac92;
+}
+
+.about-us-text {
+  text-align: center;
+  justify-content: center;
+  background-color: #fff2d0;
+  margin: 14% 10% 9% 10%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  padding: 1% 1% 1% 1%;
+  line-height: 1.2%;
+}
+
+/* Our Team CSS start */
+
+.box1 img,
+.box1:after,
+.box1:before {
+  width: 100%;
+  transition: all 0.3s ease 0s;
+}
+.box1 .icon,
+.box2,
+.box3,
+.box4,
+.box5 .icon li a {
+  text-align: center;
+}
+.box10:after,
+.box10:before,
+.box1:after,
+.box1:before,
+.box2 .inner-content:after,
+.box3:after,
+.box3:before,
+.box4:before,
+.box5:after,
+.box5:before,
+.box6:after,
+.box7:after,
+.box7:before {
+  content: "";
+}
+.box1,
+.box11,
+.box12,
+.box13,
+.box14,
+.box16,
+.box17,
+.box18,
+.box2,
+.box20,
+.box21,
+.box3,
+.box4,
+.box5,
+.box5 .icon li a,
+.box6,
+.box7,
+.box8 {
+  overflow: hidden;
+}
+.box1 .title,
+.box10 .title,
+.box4 .title,
+.box7 .title {
+  letter-spacing: 1px;
+}
+.box3 .post,
+.box4 .post,
+.box5 .post,
+.box7 .post {
+  font-style: italic;
+}
+body {
+  background-color: #f1f1f2;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.box1 .icon,
+.box1 .title {
+  margin: 0;
+  position: absolute;
+}
+.box1 {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+.box1:after,
+.box1:before {
+  height: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transform-origin: 100% 0;
+  transform: rotateZ(90deg);
+}
+.box1:after {
+  top: auto;
+  bottom: 0;
+  transform-origin: 0 100%;
+}
+.box1:hover:after,
+.box1:hover:before {
+  transform: rotateZ(0);
+}
+.box1 img {
+  height: auto;
+  transform: scale(1) rotate(0);
+}
+.box1:hover img {
+  filter: sepia(80%);
+  transform: scale(1.3) rotate(10deg);
+}
+.box1 .title {
+  font-size: 19px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0 0 1px #004cbf;
+  bottom: 10px;
+  left: 10px;
+  opacity: 0;
+  z-index: 2;
+  transform: scale(0);
+  transition: all 0.5s ease 0.2s;
+}
+.box1:hover .title {
+  opacity: 1;
+  transform: scale(1);
+}
+.box1 .icon {
+  padding: 7px 5px;
+  list-style: none;
+  background: #004cbf;
+  border-radius: 0 0 0 10px;
+  top: -100%;
+  right: 0;
+  z-index: 2;
+  transition: all 0.3s ease 0.2s;
+}
+.box1:hover .icon {
+  top: 0;
+}
+.box1 .icon li {
+  display: block;
+  margin: 10px 0;
+}
+.box1 .icon li a {
+  display: block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #fff;
+  transition: all 0.3s ease 0s;
+}
+.box2 .icon li a,
+.box3 .icon a:hover,
+.box4 .icon li a:hover,
+.box5 .icon li a,
+.box6 .icon li a {
+  border-radius: 50%;
+}
+.box1 .icon li a:hover {
+  color: #fff;
+  box-shadow: 0 0 10px #000 inset, 0 0 0 3px #fff;
+}
+@media only screen and (max-width: 990px) {
+  .box1 {
+    margin-bottom: 30px;
+  }
+}
+
+.our-team {
+  margin-top: 10%;
+  margin-bottom: 6%;
+}
+
+/* This is for Our team part end... */
+
+h4 .about-us-text {
+  font-weight: 0;
+}
+
+.not-found {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #eee;
+  justify-content: center;
+  text-align: center;
+}
+
+/*-------------------------set-info------------------*/
+
+.all-elements,
+select .all-elements {
+  padding: 3rem 30rem 0 30rem;
+  color: #f5ba13;
+}
+
+.btn-in-form {
+  padding: 1rem 30rem 2rem 30rem;
+}
+
+/*--------x------------set-info------------x-----------*/
+
+/*---------------------login-signup---------------------*/
+
+.all-elements-for-login-signup {
+  padding:0.5rem 30rem;
+}
+
+/*----------x---------login-signup-------------x-----------*/
